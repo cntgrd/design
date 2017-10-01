@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="444px" height="93px" viewBox="0 0 444 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>centigrade-logotype</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="23.3398819%" x2="50%" y2="47.776684%" id="linearGradient-1">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#745F71" offset="52.8160874%"></stop>
+            <stop stop-color="#006D80" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="96">
+        <g id="centigrade-logotype" transform="translate(-4.000000, -24.000000)">
+            <text id="Centigrade" font-family="FuturaPT-Book, Futura PT" font-weight="300" fill-opacity="0.746942935" fill="#000000">
+                <tspan x="0" y="94">Centigrade</tspan>
+            </text>
+            <text id="°" fill="url(#linearGradient-1)" font-family="FuturaPT-Medium, Futura PT" font-weight="400">
+                <tspan x="410" y="94">°</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
