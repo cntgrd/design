@@ -88,10 +88,10 @@ code, pre {
 	background-repeat: no-repeat;
 }
 .snow-bg {
-	background-image: url('snow-bg.jpg');
+	background-image: url('img/snow-bg.jpg');
 }
 .cloud-bg {
-	background-image: url('cloud-bg.jpg');
+	background-image: url('img/cloud-bg.jpg');
 }
 /* NONREUSABLE */
 
