@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'CalibreRegularWeb';
+  src: url('fonts/Calibre-Regular.otf');
+}
+
+@font-face {
+	font-family: 'InputMonoCompressedWeb';
+	src: url('fonts/InputMonoCompressed-Regular.ttf');
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'CalibreRegularWeb', sans-serif;
+	font-size: 17px;
+}
+
+code, pre {
+	font-family: 'InputMonoCompressedWeb';
+	font-weight: 400;
+}
+
+.huge-header {
+	font-size: 40px;
+}
+
+.img, .card .spacer {
+	margin: 1.5rem 0;
+}
+
+.img {
+	max-width: 100%;
+	max-height: 50vh;
+}
+
+.img.shadow {
+	box-shadow: 0px 5px 40px rgba(0,0,0,0.7);
+}
+
+.card .spacer {
+	width: 100%;
+	height: 50vh;
+}
+
+.card {
+	width: 100%;
+	height: 100vh;
+	padding: 1.5rem;
+	overflow: hidden;
+}
+
+.invert {
+	color: #fff;
+	background: #000;
+}
+
+.blue {
+	background-color: #008AFF;
+}
+
+.blue-text {
+	color: #008AFF;
+}
+
+.gray {
+	background-color: #F8F8F8;
+}
+
+.card p {
+	width: 100%;
+	max-width: 400px;
+}
+
+.fr, .fc {
+	/* both are vertical (y) on mobile */
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* parallel (y): center */
+	align-items: flex-start; /* perpendicular (x): left */
+}
+
+/* NONREUSABLE */
+.snow-bg, .cloud-bg {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.snow-bg {
+	background-image: url('snow-bg.jpg');
+}
+.cloud-bg {
+	background-image: url('cloud-bg.jpg');
+}
+/* NONREUSABLE */
+
+@media screen and (min-width: 400px) {
+	html, body { font-size: 20px; }
+	.huge-header { font-size: 18vw; }
+}
+
+@media screen and (min-width: 600px) {
+	.card { padding: 8.5vmin; }
+}
+
+@media screen and (min-width: 1000px) {
+	html, body { font-size: 21px; }
+	.huge-header { font-size: 15vw; }
+	.fr { flex-direction: row; align-items: center; /* center on y */ }
+
+	.fc .img, .fc .card .spacer { margin: 1.5rem 0; }
+	.fr .img, .fr .spacer { margin: 0 3rem; }
+
+	.img { max-width: 60vw; }
+	.card .spacer { width: 60vw; height: 100vh; }
+	.card .spacer.fc .img { margin: 0; }
+}
+
+@media screen and (min-width: 1200px) {
+	html, body { font-size: 23px; }
+}
